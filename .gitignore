@@ -21,4 +21,5 @@ toy_datasets
 toy_datasets.zip
 toy_datasets_json*
 tools/src/make_toy_dataset - コピー.py
-samples/
+samples/images
+samples/logs

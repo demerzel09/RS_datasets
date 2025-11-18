@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Make Datatsets Test",
+            "name": "Make Datatsets Samples",
             "type": "debugpy",
             //"python": "${workspaceFolder}/.venv/bin/python",
             "request": "launch",
@@ -14,10 +14,10 @@
             "program": "${workspaceFolder}/tools/src/make_toy_dataset_to_json.py",
             "args": [
                 "--root", ".",
-                "--out", "toy_datasets_json",
+                "--out", "samples",
                 "--seed", "42",
-                "--count-caption", "5",
-                "--count-vqa", "5",
+                "--count-caption", "2",
+                "--count-vqa", "2",
                 "--count-ref", "2",
                 "--count-cls", "2",
                 "--make-paired",

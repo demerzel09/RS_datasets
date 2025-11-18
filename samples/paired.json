@@ -1,0 +1,4724 @@
+{
+  "info": {
+    "name": "paired",
+    "version": "v1"
+  },
+  "captures": [
+    {
+      "capture_id": "c_0000015_20201029_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000015_20201029_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000015_20201029_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000015_20201029_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20201029_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000015_20210117_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000015_20210117_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000015_20210117_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000015_20210117_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210117_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000015_20210407_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000015_20210407_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000015_20210407_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000015_20210407_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210407_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000015_20210719_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000015_20210719_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000015_20210719_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000015_20210719_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000015_20210719_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000034_20200715_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000034_20200715_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000034_20200715_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000034_20200715_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20200715_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000034_20201020_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000034_20201020_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000034_20201020_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000034_20201020_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20201020_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000034_20210113_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000034_20210113_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000034_20210113_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000034_20210113_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210113_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000034_20210423_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000034_20210423_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000034_20210423_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000034_20210423_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000034_20210423_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000006_20200423_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000006_20200423_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000006_20200423_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000006_20200423_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200423_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000006_20200806_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000006_20200806_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000006_20200806_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000006_20200806_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20200806_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000006_20201109_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000006_20201109_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000006_20201109_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000006_20201109_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20201109_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000006_20210115_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000006_20210115_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000006_20210115_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000006_20210115_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000006_20210115_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000068_20200512_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000068_20200512_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000068_20200512_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000068_20200512_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200512_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000068_20200810_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000068_20200810_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000068_20200810_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000068_20200810_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20200810_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000068_20201103_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000068_20201103_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000068_20201103_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000068_20201103_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20201103_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000068_20210211_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000068_20210211_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000068_20210211_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000068_20210211_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000068_20210211_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000018_20200222_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000018_20200222_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000018_20200222_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000018_20200222_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200222_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000018_20200519_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000018_20200519_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000018_20200519_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000018_20200519_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200519_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000018_20200817_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000018_20200817_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000018_20200817_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000018_20200817_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20200817_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000018_20201120_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000018_20201120_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000018_20201120_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000018_20201120_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000018_20201120_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000094_20200917_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000094_20200917_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000094_20200917_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000094_20200917_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20200917_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000094_20201216_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000094_20201216_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000094_20201216_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000094_20201216_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20201216_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000094_20210316_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000094_20210316_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000094_20210316_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000094_20210316_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210316_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000094_20210619_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000094_20210619_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000094_20210619_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000094_20210619_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000094_20210619_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000098_20200226_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000098_20200226_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000098_20200226_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000098_20200226_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200226_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000098_20200620_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000098_20200620_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000098_20200620_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000098_20200620_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200620_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000098_20200908_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000098_20200908_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000098_20200908_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000098_20200908_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20200908_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000098_20201222_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000098_20201222_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000098_20201222_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000098_20201222_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000098_20201222_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000070_20200324_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000070_20200324_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000070_20200324_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000070_20200324_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200324_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_0000070_20200622_rgb",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/paired/ssl4eo-s12/0000070_20200622_rgb.png"
+        },
+        {
+          "sensor_type": "s2",
+          "file_name": "images/paired/ssl4eo-s12/0000070_20200622_s2rgb.png"
+        },
+        {
+          "sensor_type": "s1",
+          "file_name": "images/paired/ssl4eo-s12/0000070_20200622_sar.png"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2a/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2a/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2a/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2a/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2a/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2a/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2a/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2a/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2a/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2a/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2a/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2a_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2a/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2c/B2.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2c/B3.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2c/B4.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2c/B8.tif",
+          "tag": "10m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2c/B11.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2c/B12.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2c/B5.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2c/B6.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2c/B7.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2c/B8A.tif",
+          "tag": "20m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2c/B1.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2c/B10.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s2c_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s2c/B9.tif",
+          "tag": "60m"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s1/VV.tif",
+          "band": "VV"
+        },
+        {
+          "sensor_type": "s1_raw",
+          "file_name": "images/paired/ssl4eo-s12/raw/0000070_20200622_s1/VH.tif",
+          "band": "VH"
+        }
+      ]
+    }
+  ],
+  "series": [
+    {
+      "series_id": "s_0000015",
+      "capture_ids": [
+        "c_0000015_20201029_rgb",
+        "c_0000015_20210117_rgb",
+        "c_0000015_20210407_rgb",
+        "c_0000015_20210719_rgb"
+      ],
+      "meta": {
+        "patch_id": "0000015"
+      }
+    },
+    {
+      "series_id": "s_0000034",
+      "capture_ids": [
+        "c_0000034_20200715_rgb",
+        "c_0000034_20201020_rgb",
+        "c_0000034_20210113_rgb",
+        "c_0000034_20210423_rgb"
+      ],
+      "meta": {
+        "patch_id": "0000034"
+      }
+    },
+    {
+      "series_id": "s_0000006",
+      "capture_ids": [
+        "c_0000006_20200423_rgb",
+        "c_0000006_20200806_rgb",
+        "c_0000006_20201109_rgb",
+        "c_0000006_20210115_rgb"
+      ],
+      "meta": {
+        "patch_id": "0000006"
+      }
+    },
+    {
+      "series_id": "s_0000068",
+      "capture_ids": [
+        "c_0000068_20200512_rgb",
+        "c_0000068_20200810_rgb",
+        "c_0000068_20201103_rgb",
+        "c_0000068_20210211_rgb"
+      ],
+      "meta": {
+        "patch_id": "0000068"
+      }
+    },
+    {
+      "series_id": "s_0000018",
+      "capture_ids": [
+        "c_0000018_20200222_rgb",
+        "c_0000018_20200519_rgb",
+        "c_0000018_20200817_rgb",
+        "c_0000018_20201120_rgb"
+      ],
+      "meta": {
+        "patch_id": "0000018"
+      }
+    },
+    {
+      "series_id": "s_0000094",
+      "capture_ids": [
+        "c_0000094_20200917_rgb",
+        "c_0000094_20201216_rgb",
+        "c_0000094_20210316_rgb",
+        "c_0000094_20210619_rgb"
+      ],
+      "meta": {
+        "patch_id": "0000094"
+      }
+    },
+    {
+      "series_id": "s_0000098",
+      "capture_ids": [
+        "c_0000098_20200226_rgb",
+        "c_0000098_20200620_rgb",
+        "c_0000098_20200908_rgb",
+        "c_0000098_20201222_rgb"
+      ],
+      "meta": {
+        "patch_id": "0000098"
+      }
+    },
+    {
+      "series_id": "s_0000070",
+      "capture_ids": [
+        "c_0000070_20200324_rgb",
+        "c_0000070_20200622_rgb"
+      ],
+      "meta": {
+        "patch_id": "0000070"
+      }
+    }
+  ]
+}

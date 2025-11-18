@@ -1,0 +1,97 @@
+{
+  "info": {
+    "name": "ref",
+    "version": "v1"
+  },
+  "captures": [
+    {
+      "capture_id": "c_P1269_0051",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/ref/vrsbench/P1269_0051.png"
+        }
+      ],
+      "objects": []
+    },
+    {
+      "capture_id": "c_P1560_0023",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/ref/vrsbench/P1560_0023.png"
+        }
+      ],
+      "objects": []
+    }
+  ],
+  "refs": [
+    {
+      "capture_id": "c_P1269_0051",
+      "expression": "The bridge is located near the center of the image.",
+      "bbox": [
+        0.56640625,
+        0.302734375,
+        0.625,
+        0.3515625
+      ],
+      "polygon": [
+        0.56640625,
+        0.318359375,
+        0.580078125,
+        0.302734375,
+        0.625,
+        0.3359375,
+        0.61328125,
+        0.3515625
+      ],
+      "source": "VRSBench"
+    },
+    {
+      "capture_id": "c_P1269_0051",
+      "expression": "The bridge located towards the top of the image.",
+      "bbox": [
+        0.646484375,
+        0.1015625,
+        0.736328125,
+        0.1953125
+      ],
+      "polygon": [
+        0.646484375,
+        0.166015625,
+        0.685546875,
+        0.1015625,
+        0.736328125,
+        0.126953125,
+        0.701171875,
+        0.1953125
+      ],
+      "source": "VRSBench"
+    },
+    {
+      "capture_id": "c_P1560_0023",
+      "expression": "The baseball diamond is located towards the left edge of the image.",
+      "bbox": [
+        -0.02734375,
+        0.583984375,
+        0.1484375,
+        0.77734375
+      ],
+      "polygon": [
+        -0.02734375,
+        0.625,
+        0.11328125,
+        0.583984375,
+        0.1484375,
+        0.736328125,
+        0.009765625,
+        0.77734375
+      ],
+      "source": "VRSBench"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "info": {
+    "name": "vqa",
+    "version": "v1"
+  },
+  "questions": [
+    {
+      "q_id": "q_0001",
+      "question": "Where is the right-most small vehicle located?"
+    },
+    {
+      "q_id": "q_0002",
+      "question": "What is the position of the left-most small vehicle?"
+    },
+    {
+      "q_id": "q_0003",
+      "question": "How many small vehicles are clearly visible and unobstructed?"
+    },
+    {
+      "q_id": "q_0004",
+      "question": "Are there any buildings visible at the base of the chimney?"
+    },
+    {
+      "q_id": "q_0005",
+      "question": "What is the main structure visible in the image?"
+    },
+    {
+      "q_id": "q_0006",
+      "question": "What is the primary color of the fields surrounding the industrial structure?"
+    }
+  ],
+  "captures": [
+    {
+      "capture_id": "c_P0168_0000",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/vqa/vrsbench/P0168_0000.png"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_08571_0000",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/vqa/vrsbench/08571_0000.png"
+        }
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "capture_id": "c_P0168_0000",
+      "vqa_instances": [
+        {
+          "q_id": "q_0001",
+          "question": "Where is the right-most small vehicle located?",
+          "answers": [
+            "middle-right"
+          ]
+        },
+        {
+          "q_id": "q_0002",
+          "question": "What is the position of the left-most small vehicle?",
+          "answers": [
+            "bottom-left"
+          ]
+        },
+        {
+          "q_id": "q_0003",
+          "question": "How many small vehicles are clearly visible and unobstructed?",
+          "answers": [
+            "7"
+          ]
+        }
+      ]
+    },
+    {
+      "capture_id": "c_08571_0000",
+      "vqa_instances": [
+        {
+          "q_id": "q_0004",
+          "question": "Are there any buildings visible at the base of the chimney?",
+          "answers": [
+            "yes"
+          ]
+        },
+        {
+          "q_id": "q_0005",
+          "question": "What is the main structure visible in the image?",
+          "answers": [
+            "chimney"
+          ]
+        },
+        {
+          "q_id": "q_0006",
+          "question": "What is the primary color of the fields surrounding the industrial structure?",
+          "answers": [
+            "green"
+          ]
+        }
+      ]
+    }
+  ]
+}

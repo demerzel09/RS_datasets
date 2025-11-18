@@ -1,0 +1,42 @@
+{
+  "info": {
+    "name": "caption",
+    "version": "v1"
+  },
+  "captures": [
+    {
+      "capture_id": "c_boat_0",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/caption/rsitmd/boat_0.png"
+        }
+      ],
+      "captions": [
+        {
+          "text": "Two large ships loaded with cargo docked on both sides of the grey port.",
+          "source": "RSITMD"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_P2404_0019",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/caption/vrsbench/P2404_0019.png"
+        }
+      ],
+      "captions": [
+        {
+          "text": "This high-resolution image sourced from Google Earth shows a landscape with a bridge crossing over a river, surrounded by patches of green vegetation and a few scattered buildings. The bridge connects two land masses, allowing a route for vehicular traffic over the water body.",
+          "source": "VRSBench"
+        }
+      ]
+    }
+  ]
+}

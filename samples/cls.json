@@ -1,0 +1,43 @@
+{
+  "info": {
+    "name": "cls",
+    "version": "v1"
+  },
+  "categories": [],
+  "captures": [
+    {
+      "capture_id": "c_AnnualCrop_2253",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/cls/EuroSAT/Annual Crop/AnnualCrop_2253.png"
+        }
+      ],
+      "classifications": [
+        {
+          "label": "Annual Crop",
+          "source": "EuroSAT"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_Forest_2457",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/cls/EuroSAT/Forest/Forest_2457.png"
+        }
+      ],
+      "classifications": [
+        {
+          "label": "Forest",
+          "source": "EuroSAT"
+        }
+      ]
+    }
+  ]
+}
