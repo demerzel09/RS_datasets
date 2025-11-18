@@ -1,0 +1,1 @@
+python tools/make_toy_dataset.py --root . --out toy_datasets --seed 42 --count-caption 300 --count-vqa 200 --count-ref 50 --count-cls 200 --make-paired --count-vqa-ts 100 --vqa-ts-frames 4

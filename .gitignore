@@ -1,0 +1,16 @@
+__pycache__/
+BB-GeoGPT_Data/
+For_GeoLLaVA-8K_China/
+GeoLLaVA/
+Landslide4Sense-2022/
+SSL4EO-S12-v1.1/
+Llama3-SSL4EO-S12-v1.1-captions/
+Web/
+VRSBench/
+data/
+out_landslide_s2/
+out_landslide_s2.zip
+rs5m_test_data/
+ms-clip_examples/
+toy_datasets/
+toy_datasets.zip

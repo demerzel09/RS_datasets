@@ -1,0 +1,11 @@
+bands:
+  - data/raw/B02.tif
+  - data/raw/B03.tif
+  - data/raw/B04.tif
+  - data/raw/B08.tif
+  - data/raw/B11.tif
+scl: data/raw/SCL.tif
+mask: data/raw/MASK.tif
+# Only the base name of this path is used; the file is written under the
+# `preprocess` directory of the input data.
+features_out: features.npz

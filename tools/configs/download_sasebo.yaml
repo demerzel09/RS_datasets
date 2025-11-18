@@ -1,0 +1,27 @@
+provider: aws_cog
+lat: 33.589
+lon: 130.273
+#buffer: 0.1
+buffer_m: 10000
+start: '2023-12-01'
+end: '2024-02-28'
+max_cloud: 30
+min_valid: 30
+satellite: 'Sentinel-2'
+bands:
+  - B01
+  - B02
+  - B03
+  - B04
+  - B05
+  - B06
+  - B07
+  - B08
+  - B09
+  - B10
+  - B11
+  - B12
+  - SCL
+  - dataMask
+
+
