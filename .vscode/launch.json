@@ -1,0 +1,50 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Make Datatsets Test",
+            "type": "debugpy",
+            //"python": "${workspaceFolder}/.venv/bin/python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "program": "${workspaceFolder}/tools/src/make_toy_dataset_to_json.py",
+            "args": [
+                "--root", ".",
+                "--out", "toy_datasets_json",
+                "--seed", "42",
+                "--count-caption", "5",
+                "--count-vqa", "5",
+                "--count-ref", "2",
+                "--count-cls", "2",
+                "--make-paired",
+                "--count-vqa-ts", "2",
+                "--vqa-ts-frames", "4"
+            ]
+        },
+        {
+            "name": "Make Datatsets",
+            "type": "debugpy",
+            //"python": "${workspaceFolder}/.venv/bin/python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "program": "${workspaceFolder}/tools/src/make_toy_dataset_to_json.py",
+            "args": [
+                "--root", ".",
+                "--out", "toy_datasets_json",
+                "--seed", "42",
+                "--count-caption", "300",
+                "--count-vqa", "200",
+                "--count-ref", "50",
+                "--count-cls", "200",
+                "--make-paired",
+                "--count-vqa-ts", "200",
+                "--vqa-ts-frames", "4"
+            ]
+        }
+     ]
+}

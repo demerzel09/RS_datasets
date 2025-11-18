@@ -17,5 +17,8 @@ data/
 out_landslide_s2/
 out_landslide_s2.zip
 ms-clip_examples/
-toy_datasets/
+toy_datasets
 toy_datasets.zip
+toy_datasets_json*
+tools/src/make_toy_dataset - コピー.py
+samples/
