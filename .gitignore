@@ -23,3 +23,10 @@ toy_datasets_json*
 tools/src/make_toy_dataset - コピー.py
 samples/images
 samples/logs
+paired_heatmaps/
+SN6_buildings_AOI_11_Rotterdam/
+Whu-opt-sar/
+samples.zip
+Tellus/
+SEN12MS-CR-TS/checksums.sha512
+SEN12MS-CR-TS/s1_africa_test.tar.gz

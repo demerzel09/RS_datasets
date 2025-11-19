@@ -383,25 +383,97 @@ def collect_vrsbench_vqa(cfg: Cfg, limit: int) -> List[dict]:
 
 def collect_referring(cfg: Cfg, limit: int) -> List[dict]:
     rows: List[dict] = []
-    # VRSBench grouped by image to include all expressions per image
+    limit = max(0, limit or 0)
+    if limit == 0:
+        return rows
+
+    # Load metadata for both sources first so we can balance quotas.
     root_v = cfg.root / "VRSBench"
     ann_v = root_v / "VRSBench_EVAL_referring.json"
+    vrs_by_img: Dict[str, List[dict]] = {}
     if ann_v.exists():
         items = json.loads(ann_v.read_text(encoding="utf-8"))
-        by_img: Dict[str, List[dict]] = {}
         for it in items:
             img_id = it.get("image_id")
             if not img_id:
                 continue
-            by_img.setdefault(img_id, []).append(it)
-        img_ids = list(by_img.keys())
-        random.shuffle(img_ids)
-        saved_cache: Dict[str, Path] = {}
-        images_added = 0
-        for img_id in img_ids:
-            if images_added >= limit:
+            vrs_by_img.setdefault(img_id, []).append(it)
+    vrs_img_ids = list(vrs_by_img.keys())
+    random.shuffle(vrs_img_ids)
+
+    root_a = cfg.root / "rs5m_test_data" / "AIR-SLT"
+    ann_a = root_a / "annotations" / "anno.json"
+    img_root_a = root_a / "imgs"
+    air_by_img: Dict[str, List[dict]] = {}
+    if ann_a.exists():
+        items = json.loads(ann_a.read_text(encoding="utf-8"))
+        for it in items:
+            img_id = it.get("jpg_name")
+            if not img_id:
+                continue
+            air_by_img.setdefault(img_id, []).append(it)
+    air_img_ids = list(air_by_img.keys())
+    random.shuffle(air_img_ids)
+
+    availability = {
+        "VRSBench": len(vrs_img_ids),
+        "AIR-SLT": len(air_img_ids),
+    }
+    total_available = availability["VRSBench"] + availability["AIR-SLT"]
+    if total_available == 0:
+        return rows
+    target_total = min(limit, total_available)
+
+    # Desired ratio: prefer VRSBench but always reserve a chunk for AIR-SLT when possible.
+    weights = {"VRSBench": 0.6, "AIR-SLT": 0.4}
+    quotas: Dict[str, int] = {}
+    fractions: List[Tuple[float, str]] = []
+    for src, weight in weights.items():
+        raw = target_total * weight
+        base = int(math.floor(raw))
+        quotas[src] = base
+        fractions.append((raw - base, src))
+    remaining = target_total - sum(quotas.values())
+    fractions.sort(reverse=True)
+    for frac, src in fractions:
+        if remaining <= 0:
+            break
+        quotas[src] += 1
+        remaining -= 1
+
+    allocations = {}
+    for src, quota in quotas.items():
+        allocations[src] = min(quota, availability.get(src, 0))
+    allocated = sum(allocations.values())
+    leftover = target_total - allocated
+    if leftover > 0:
+        # Give leftover slots to sources that still have capacity, prioritizing larger availability gaps.
+        order = sorted(
+            allocations.keys(),
+            key=lambda s: (availability.get(s, 0) - allocations[s]),
+            reverse=True,
+        )
+        for src in order:
+            if leftover <= 0:
                 break
-            group = by_img[img_id]
+            capacity = availability.get(src, 0) - allocations[src]
+            if capacity <= 0:
+                continue
+            take = min(capacity, leftover)
+            allocations[src] += take
+            leftover -= take
+
+    total_added = 0
+    used_images: set[str] = set()
+
+    # Collect from VRSBench up to its allocation.
+    vrs_target = allocations.get("VRSBench", 0)
+    if vrs_target > 0:
+        saved_cache: Dict[str, Path] = {}
+        for img_id in vrs_img_ids:
+            if total_added >= target_total or vrs_target <= 0:
+                break
+            group = vrs_by_img[img_id]
             src = _vrsbench_find_image(root_v, img_id)
             if not src:
                 with (cfg.out / "logs" / "skipped.txt").open("a", encoding="utf-8") as lf:
@@ -415,6 +487,9 @@ def collect_referring(cfg: Cfg, limit: int) -> List[dict]:
                     saved = normalize_and_save_image(src, out_abs, cfg.resize, cfg.jpeg)
                     saved_cache[img_id] = saved
             except Exception:
+                continue
+            rel_path = str(saved.relative_to(cfg.out)).replace("\\", "/")
+            if rel_path in used_images:
                 continue
             random.shuffle(group)
             added_any = False
@@ -430,7 +505,7 @@ def collect_referring(cfg: Cfg, limit: int) -> List[dict]:
                     bbox = [min(xs), min(ys), max(xs), max(ys)]
                 rows.append({
                     "task": "ref",
-                    "image": str(saved.relative_to(cfg.out)).replace("\\", "/"),
+                    "image": rel_path,
                     "expression": str(expr).strip(),
                     "bbox": bbox,
                     "polygon": it.get("obj_corner"),
@@ -438,59 +513,62 @@ def collect_referring(cfg: Cfg, limit: int) -> List[dict]:
                 })
                 added_any = True
             if added_any:
-                images_added += 1
+                used_images.add(rel_path)
+                total_added += 1
+                vrs_target -= 1
 
-    # AIR-SLT (polygons)
-    if True:
-        root_a = cfg.root / "rs5m_test_data" / "AIR-SLT"
-        ann_a = root_a / "annotations" / "anno.json"
-        img_root = root_a / "imgs"
-        if ann_a.exists():
-            items = json.loads(ann_a.read_text(encoding="utf-8"))
-            random.shuffle(items)
-            # Continue filling by image until reaching the image limit
-            # (AIR-SLT yields one entry per image)
-            for it in items:
-                img_id = it.get("jpg_name")
+    # Collect from AIR-SLT up to its allocation.
+    air_target = allocations.get("AIR-SLT", 0)
+    if air_target > 0:
+        for img_id in air_img_ids:
+            if total_added >= target_total or air_target <= 0:
+                break
+            group = air_by_img[img_id]
+            src = img_root_a / img_id
+            if not src.exists():
+                with (cfg.out / "logs" / "skipped.txt").open("a", encoding="utf-8") as lf:
+                    lf.write(f"[AIR-SLT] missing image {img_id}\n")
+                continue
+            out_rel = Path("images") / "ref" / "air-slt" / img_id
+            out_abs = cfg.out / out_rel
+            try:
+                saved = normalize_and_save_image(src, out_abs, cfg.resize, cfg.jpeg)
+            except Exception:
+                continue
+            rel_path = str(saved.relative_to(cfg.out)).replace("\\", "/")
+            if rel_path in used_images:
+                continue
+            random.shuffle(group)
+            added_any = False
+            for it in group:
                 expr = it.get("caption")
                 pts = it.get("points")
-                if not img_id or not expr or not pts:
+                if not expr or not pts:
                     continue
-                # Check if already reached image budget by counting unique ref images in rows
-                existing_ref_images = set(r["image"] for r in rows if r.get("task") == "ref")
-                if len(existing_ref_images) >= limit:
-                    break
-                src = img_root / img_id
-                if not src.exists():
-                    with (cfg.out / "logs" / "skipped.txt").open("a", encoding="utf-8") as lf:
-                        lf.write(f"[AIR-SLT] missing image {img_id}\n")
-                    continue
-                out_rel = Path("images") / "ref" / "air-slt" / img_id
-                out_abs = cfg.out / out_rel
-                try:
-                    saved = normalize_and_save_image(src, out_abs, cfg.resize, cfg.jpeg)
-                except Exception:
-                    continue
-                # Flatten polygon list: points: [ [ [x,y], ... ] ]
-                flat = []
+                flat: List[float] = []
                 for poly in pts:
                     for xy in poly:
-                        flat.extend(xy)
+                        if len(xy) >= 2:
+                            flat.extend([float(xy[0]), float(xy[1])])
                 bbox = None
                 if flat:
                     xs = flat[0::2]
                     ys = flat[1::2]
-                    bbox = [float(min(xs)), float(min(ys)), float(max(xs)), float(max(ys))]
+                    bbox = [min(xs), min(ys), max(xs), max(ys)]
                 rows.append({
                     "task": "ref",
-                    "image": str(saved.relative_to(cfg.out)).replace("\\", "/"),
+                    "image": rel_path,
                     "expression": str(expr).strip(),
                     "bbox": bbox,
                     "polygon": flat,
                     "source": "AIR-SLT",
                 })
-                # update existing images set (not strictly required in loop)
-            # Trim is not needed now since limit is by image count; return all rows
+                added_any = True
+            if added_any:
+                used_images.add(rel_path)
+                total_added += 1
+                air_target -= 1
+
     return rows
 
 

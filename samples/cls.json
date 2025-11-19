@@ -6,13 +6,47 @@
   "categories": [],
   "captures": [
     {
-      "capture_id": "c_AnnualCrop_2253",
+      "capture_id": "c_airport_266",
       "timestamp": null,
       "location": null,
       "sensors": [
         {
           "sensor_type": "rgb",
-          "file_name": "images/cls/EuroSAT/Annual Crop/AnnualCrop_2253.png"
+          "file_name": "images/cls/AID/Airport/airport_266.png"
+        }
+      ],
+      "classifications": [
+        {
+          "label": "Airport",
+          "source": "AID"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_airplane_025",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/cls/RESISC45/airplane/airplane_025.png"
+        }
+      ],
+      "classifications": [
+        {
+          "label": "airplane",
+          "source": "RESISC45"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_AnnualCrop_717",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/cls/EuroSAT/Annual Crop/AnnualCrop_717.png"
         }
       ],
       "classifications": [
@@ -23,13 +57,13 @@
       ]
     },
     {
-      "capture_id": "c_Forest_2457",
+      "capture_id": "c_Forest_2038",
       "timestamp": null,
       "location": null,
       "sensors": [
         {
           "sensor_type": "rgb",
-          "file_name": "images/cls/EuroSAT/Forest/Forest_2457.png"
+          "file_name": "images/cls/EuroSAT/Forest/Forest_2038.png"
         }
       ],
       "classifications": [

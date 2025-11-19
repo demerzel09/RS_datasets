@@ -22,18 +22,52 @@
       ]
     },
     {
-      "capture_id": "c_P2404_0019",
+      "capture_id": "c_desert_48",
       "timestamp": null,
       "location": null,
       "sensors": [
         {
           "sensor_type": "rgb",
-          "file_name": "images/caption/vrsbench/P2404_0019.png"
+          "file_name": "images/caption/rsicd/desert_48.png"
         }
       ],
       "captions": [
         {
-          "text": "This high-resolution image sourced from Google Earth shows a landscape with a bridge crossing over a river, surrounded by patches of green vegetation and a few scattered buildings. The bridge connects two land masses, allowing a route for vehicular traffic over the water body.",
+          "text": "it is a piece of yellow desert .",
+          "source": "RSICD"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_00644",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/caption/rsicd/00644.png"
+        }
+      ],
+      "captions": [
+        {
+          "text": "a playground two three basketball fields next to it is semi-surrounded by many buildings .",
+          "source": "RSICD"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_P5789_1136",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/caption/vrsbench/P5789_1136.png"
+        }
+      ],
+      "captions": [
+        {
+          "text": "The high-resolution grayscale image provided by 'GF' appears to capture an industrial port area. The distinct structures and patterns indicate an array of facilities commonly associated with a harbor. The majority of the image is occupied by buildings of various sizes and shapes, some of which have large, flat rooftops. Situated in the middle-right of the image, a small harbor can be identified, with its docks extending towards the water.",
           "source": "VRSBench"
         }
       ]

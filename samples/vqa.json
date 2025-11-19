@@ -6,102 +6,222 @@
   "questions": [
     {
       "q_id": "q_0001",
-      "question": "Where is the right-most small vehicle located?"
+      "question": "Where is the largest storage tank positioned within the image?"
     },
     {
       "q_id": "q_0002",
-      "question": "What is the position of the left-most small vehicle?"
+      "question": "What color patterns are visible on the storage tanks?"
     },
     {
       "q_id": "q_0003",
-      "question": "How many small vehicles are clearly visible and unobstructed?"
+      "question": "What is the main type of structure visible in the image?"
     },
     {
       "q_id": "q_0004",
-      "question": "Are there any buildings visible at the base of the chimney?"
+      "question": "Which storage tank is the largest?"
     },
     {
       "q_id": "q_0005",
-      "question": "What is the main structure visible in the image?"
+      "question": "How many storage tanks are fully visible?"
     },
     {
       "q_id": "q_0006",
-      "question": "What is the primary color of the fields surrounding the industrial structure?"
+      "question": "Is there more than one windmill in the image?"
+    },
+    {
+      "q_id": "q_0007",
+      "question": "What is the primary color of the terrain?"
+    },
+    {
+      "q_id": "q_0008",
+      "question": "Which object is visible in the bottom-right corner?"
+    },
+    {
+      "q_id": "q_0009",
+      "question": "Where is the bottom-most vehicle located relative to the image?"
+    },
+    {
+      "q_id": "q_0010",
+      "question": "Is the top-most vehicle positioned near the top, center, or bottom of the image?"
+    },
+    {
+      "q_id": "q_0011",
+      "question": "How many small vehicles are visible in the image?"
+    },
+    {
+      "q_id": "q_0012",
+      "question": "What kind of land use is most prevalent around the airport?"
+    },
+    {
+      "q_id": "q_0013",
+      "question": "Is there any vegetation visible in the image?"
+    },
+    {
+      "q_id": "q_0014",
+      "question": "What is the main structure on the right side of the image?"
     }
   ],
   "captures": [
     {
-      "capture_id": "c_P0168_0000",
+      "capture_id": "c_11268_0000",
       "timestamp": null,
       "location": null,
       "sensors": [
         {
           "sensor_type": "rgb",
-          "file_name": "images/vqa/vrsbench/P0168_0000.png"
+          "file_name": "images/vqa/vrsbench/11268_0000.png"
         }
       ]
     },
     {
-      "capture_id": "c_08571_0000",
+      "capture_id": "c_08060_0000",
       "timestamp": null,
       "location": null,
       "sensors": [
         {
           "sensor_type": "rgb",
-          "file_name": "images/vqa/vrsbench/08571_0000.png"
+          "file_name": "images/vqa/vrsbench/08060_0000.png"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_P0019_0056",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/vqa/vrsbench/P0019_0056.png"
+        }
+      ]
+    },
+    {
+      "capture_id": "c_11347_0000",
+      "timestamp": null,
+      "location": null,
+      "sensors": [
+        {
+          "sensor_type": "rgb",
+          "file_name": "images/vqa/vrsbench/11347_0000.png"
         }
       ]
     }
   ],
   "annotations": [
     {
-      "capture_id": "c_P0168_0000",
+      "capture_id": "c_11268_0000",
       "vqa_instances": [
         {
           "q_id": "q_0001",
-          "question": "Where is the right-most small vehicle located?",
+          "question": "Where is the largest storage tank positioned within the image?",
           "answers": [
             "middle-right"
           ]
         },
         {
           "q_id": "q_0002",
-          "question": "What is the position of the left-most small vehicle?",
+          "question": "What color patterns are visible on the storage tanks?",
           "answers": [
-            "bottom-left"
+            "dark and light gray"
           ]
         },
         {
           "q_id": "q_0003",
-          "question": "How many small vehicles are clearly visible and unobstructed?",
+          "question": "What is the main type of structure visible in the image?",
           "answers": [
-            "7"
+            "storagetank"
+          ]
+        },
+        {
+          "q_id": "q_0004",
+          "question": "Which storage tank is the largest?",
+          "answers": [
+            "top-most tank"
+          ]
+        },
+        {
+          "q_id": "q_0005",
+          "question": "How many storage tanks are fully visible?",
+          "answers": [
+            "2"
           ]
         }
       ]
     },
     {
-      "capture_id": "c_08571_0000",
+      "capture_id": "c_08060_0000",
       "vqa_instances": [
         {
-          "q_id": "q_0004",
-          "question": "Are there any buildings visible at the base of the chimney?",
-          "answers": [
-            "yes"
-          ]
-        },
-        {
-          "q_id": "q_0005",
-          "question": "What is the main structure visible in the image?",
-          "answers": [
-            "chimney"
-          ]
-        },
-        {
           "q_id": "q_0006",
-          "question": "What is the primary color of the fields surrounding the industrial structure?",
+          "question": "Is there more than one windmill in the image?",
           "answers": [
-            "green"
+            "No"
+          ]
+        },
+        {
+          "q_id": "q_0007",
+          "question": "What is the primary color of the terrain?",
+          "answers": [
+            "brown"
+          ]
+        },
+        {
+          "q_id": "q_0008",
+          "question": "Which object is visible in the bottom-right corner?",
+          "answers": [
+            "windmill"
+          ]
+        }
+      ]
+    },
+    {
+      "capture_id": "c_P0019_0056",
+      "vqa_instances": [
+        {
+          "q_id": "q_0009",
+          "question": "Where is the bottom-most vehicle located relative to the image?",
+          "answers": [
+            "center"
+          ]
+        },
+        {
+          "q_id": "q_0010",
+          "question": "Is the top-most vehicle positioned near the top, center, or bottom of the image?",
+          "answers": [
+            "top"
+          ]
+        },
+        {
+          "q_id": "q_0011",
+          "question": "How many small vehicles are visible in the image?",
+          "answers": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "capture_id": "c_11347_0000",
+      "vqa_instances": [
+        {
+          "q_id": "q_0012",
+          "question": "What kind of land use is most prevalent around the airport?",
+          "answers": [
+            "agricultural"
+          ]
+        },
+        {
+          "q_id": "q_0013",
+          "question": "Is there any vegetation visible in the image?",
+          "answers": [
+            "Yes"
+          ]
+        },
+        {
+          "q_id": "q_0014",
+          "question": "What is the main structure on the right side of the image?",
+          "answers": [
+            "airport"
           ]
         }
       ]
